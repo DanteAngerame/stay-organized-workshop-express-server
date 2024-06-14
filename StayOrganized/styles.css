@@ -1,0 +1,60 @@
+.buttonarea{
+    background-color: rgb(182, 127, 255);
+}
+
+.listarea{
+    background-color: rgb(31, 192, 144);
+    border: 3px;
+    border-color: black;
+    max-height: 90vh;
+    overflow-y: scroll;
+     
+}
+
+textarea{
+    width: 73.5%;
+}
+
+.taskTitle{
+    width: 73.5%;
+}
+
+.task-card {
+    margin-top: 3%;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 16px;
+    margin-bottom: 16px;
+    background-color: aliceblue;
+    
+}
+
+.cardListContainer{
+    max-height: 90vh;
+    overflow-y: scroll;
+}
+
+.task-content {
+    flex-grow: 1;
+    margin-right: 10px;
+}
+.remove-task {
+    cursor: pointer;
+}
+
+
+
+
+
+
+.priority-low {
+    background-color: #3498db; /* Blue */
+}
+
+.priority-standard {
+    background-color: #f1c40f; /* Yellow */
+}
+
+.priority-urgent {
+    background-color: #e74c3c; /* Red */
+}
